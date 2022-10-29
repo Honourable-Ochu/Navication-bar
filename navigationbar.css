@@ -1,0 +1,126 @@
+.navbar {
+    display: flex;
+    margin-bottom: 23.28px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search-section{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 15px;}
+.search-section p{
+    margin-right: 20px;
+    margin-left: 20px;
+ 
+}
+.search {
+    margin-right: 20px;
+    margin-left: 20px;
+background-color: black;
+padding: 8px;
+border-radius: 100%;
+    
+}
+.profile {
+    display:flex;
+    align-items: center;
+}
+.profile p{
+    margin : 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.profile img{
+    margin: 20px;
+}
+
+.welcome {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 212px;
+    
+
+}
+.packages { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #b1aeae;
+    padding: 10px;
+    color:#878787
+    
+}
+ 
+.packages section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: center;
+}
+.packages section img{
+    width: 24px;
+    height: 24px;
+}
+.pictorial-view {
+    display: flex;
+}
+
+
+
+.pictorial-row {
+    display: flex;
+    
+}
+.pictorial-venue {
+    display: flex;
+    grid-gap: 20px;
+    grid-template-columns: 25px 25px 25px 25px;
+    background-color: blue;
+}
+
+
+
+.pictorial-image img{
+    display: flex;
+    flex-direction: column;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 25.71%;
+
+    background: url(image.png);
+    border-radius: 11px;
+}
+.background{
+position:relative;
+}
+.love {
+    width: 26.42px;
+    height: 19.18px;
+    top: 19px;
+    right:15px;
+    color: #161515; 
+    position: absolute;
+    
+    
+}
+.pictorial-location {
+    width: 98px;
+    height: 18px;
+    top: 299px;
+    left: 1px;
+    color: #000000;
+
+    
+}
+.venue-rating {
+    display: flex;
+    flex-direction: row;
+}
